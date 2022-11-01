@@ -5272,7 +5272,7 @@ let GamepadMappings = {
   'Oculus Touch V3 (Right)': oculusTouchV3,
   'Oculus Touch V3 (Left)': oculusTouchV3,
   'Meta Quest Touch Pro (Right)': metaQuestTouchPro,
-  'Meta Quest Touch pro (Left)': metaQuestTouchPro,
+  'Meta Quest Touch Pro (Left)': metaQuestTouchPro,
   'OpenVR Gamepad': openVr,
   'Spatial Controller (Spatial Interaction Source) 045E-065A': windowsMixedReality,
   'Spatial Controller (Spatial Interaction Source) 045E-065D': samsungOdyssey,
