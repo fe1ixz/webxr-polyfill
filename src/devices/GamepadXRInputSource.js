@@ -194,10 +194,15 @@ export default class GamepadXRInputSource {
     this.handedness = '';
     this.targetRayMode = 'gaze';
     this.armModel = null;
+    this.profilesOverride = null;
   }
 
   get profiles() {
-    return this.gamepad ? this.gamepad._profiles : [];
+    if (this.profilesOverride) {
+      return this.profilesOverride;
+    } else {
+      return this.gamepad ? this.gamepad._profiles : [];
+    }
   }
 
   updateFromGamepad(gamepad) {
