@@ -5189,6 +5189,31 @@ let metaQuestTouchPro = {
     orientation: [Math.PI * 0.11, 0, 0, 1]
   }
 };
+let metaQuestTouchPlus = {
+  mapping: 'xr-standard',
+  profiles: ['meta-quest-touch-plus', 'oculus-touch-v3', 'oculus-touch', 'generic-trigger-squeeze-thumbstick'],
+  axes: {
+    length: 4,
+    0: null,
+		1: null,
+    2: 0,
+    3: 1
+  },
+  buttons: {
+    length: 7,
+    0: 1,
+    1: 2,
+    2: null,
+    3: 0,
+    4: 3,
+    5: 4,
+    6: null
+  },
+  gripTransform: {
+    position: [0, -0.02, 0.04, 1],
+    orientation: [Math.PI * 0.11, 0, 0, 1]
+  }
+};
 let openVr = {
   mapping: 'xr-standard',
   profiles: ['htc-vive', 'generic-trigger-squeeze-touchpad'],
@@ -5273,6 +5298,8 @@ let GamepadMappings = {
   'Oculus Touch V3 (Left)': oculusTouchV3,
   'Meta Quest Touch Pro (Right)': metaQuestTouchPro,
   'Meta Quest Touch Pro (Left)': metaQuestTouchPro,
+  'Meta Quest Touch Plus (Right)': metaQuestTouchPlus,
+  'Meta Quest Touch Plus (Left)': metaQuestTouchPlus,
   'OpenVR Gamepad': openVr,
   'Spatial Controller (Spatial Interaction Source) 045E-065A': windowsMixedReality,
   'Spatial Controller (Spatial Interaction Source) 045E-065D': samsungOdyssey,
